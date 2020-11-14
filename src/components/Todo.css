@@ -1,0 +1,56 @@
+.todo__input {
+  height: 30px;
+  width: 25%;
+  background-color: lightgray;
+  outline: none;
+  border: 1px solid gray;
+}
+
+.todo__btn {
+  height: 35px;
+  width: 100px;
+  margin-left: 10px;
+  background-color: #e67e22;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 15px;
+  outline: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.todo__single {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.todo__single > h3 {
+  background-color: lightgray;
+  width: 20%;
+  border-radius: 5px;
+}
+
+.todo__remove-btn {
+  height: 30px;
+  border: none;
+  background-color: #e74c3c;
+  color: white;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.todo__clear-btn {
+  margin-top: 10px;
+  background-color: #e74c3c;
+  color: white;
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+  border: none;
+  font-weight: 600;
+  outline: none;
+}

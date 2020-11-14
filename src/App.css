@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  background-color: #f1c40f;
+  height: 100vh;
+}
+.todo__logo {
+  height: 100px;
 }
 
 .App-logo {
